@@ -1,0 +1,116 @@
+!Workspace
+!Version 300
+!Charset WindowsLatin1
+Open Table "bea" As bea
+Map From bea 
+  Position (0.0520833,0.0520833) Units "in"
+  Width 5.45833 Units "in" Height 3.54167 Units "in" Min
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 9, 62, "m", -96, 23, 29.5, 45.5, 0, 0
+  Center (-40466.10449,1689993.937)
+  Zoom 2972.416419 Units "mi"
+  Preserve Zoom Display Zoom
+  XY Units "m" Distance Units "mi" Area Units "sq mi"
+Set Map
+  Layer 1
+    Display Graphic
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With bea
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+Set Window FrontWindow() Title "conus"
+Map From bea 
+  Position (0.0520833,0.0520833) Units "in"
+  Width 3.30208 Units "in" Height 2.05208 Units "in" Min
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 9, 63, "m", -154, 50, 55, 65, 0, 0
+  Center (-225162.8456,1346337.472)
+  Zoom 2141.774942 Units "mi"
+  Preserve Zoom Display Zoom
+  XY Units "m" Distance Units "mi" Area Units "sq mi"
+Set Map
+  Layer 1
+    Display Graphic
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With bea
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+Set Window FrontWindow() Title "AK Map"
+Map From bea 
+  Position (0.260417,0.291667) Units "in"
+  Width 3.30208 Units "in" Height 0.90625 Units "in" Min
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 1, 62
+  Center (-66.24308204,18.09070339)
+  Zoom 229.7518542 Units "mi"
+  Preserve Zoom Display Zoom
+  XY Units "degree" Distance Units "mi" Area Units "sq mi"
+Set Map
+  Layer 1
+    Display Graphic
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With bea
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+Set Window FrontWindow() Title "PR&VI Map"
+Map From bea 
+  Position (0.3125,0.541667) Units "in"
+  Width 3.45833 Units "in" Height 2.89583 Units "in" Min
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 9, 62, "m", -157, 3, 8, 18, 0, 0
+  Center (-52603.07503,1944899.872)
+  Zoom 357.0443172 Units "mi"
+  Preserve Zoom Display Zoom
+  XY Units "m" Distance Units "mi" Area Units "sq mi"
+Set Map
+  Layer 1
+    Display Graphic
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With bea
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+Set Window FrontWindow() Title "HI Map"
+Layout
+  Position (0,0) Units "in"
+  Width 4.84375 Units "in" Height 3.77083 Units "in" 
+  Set CoordSys Layout Units "in"
+  Create Frame (0.3361,0.2868) (10.6979,8.2111)
+    Pen (1,2,0) 
+    Brush (2,16777215,16777215)
+    Title "conus"
+    FillFrame Off
+  Create Frame (0.3931,5.9382) (2.6306,7.7014)
+    Pen (1,2,0) 
+    Brush (2,16777215,16777215)
+    Title "AK Map"
+    FillFrame Off
+  Create Frame (6.1222,6.8708) (8.2479,7.5556)
+    Pen (1,2,0) 
+    Brush (2,16777215,16777215)
+    Title "PR&VI Map"
+    FillFrame Off
+  Create Frame (2.375,6.4667) (4.209,7.5174)
+    Pen (1,2,0) 
+    Brush (2,16777215,16777215)
+    Title "HI Map"
+    FillFrame Off
+  Create Text
+    "Economic Areas"
+    (4.3875,0.3896) (6.6125,0.7396)
+    Font ("Arial",0,22,0)
+    Justify Center
+
+  Create Text
+    "Federal Communications Commission\nOffice of Engineering and Technology\nMichael R. Davis"
+    (8.2951,7.6375) (10.6417,8.1125)
+    Font ("Arial",0,10,0)
+    Justify Right
+
+  Set Layout Ruler Off Pagebreaks On Frame Contents Active
+  Zoom 42.9 Center (5.4613,4.22144) Extents To Fit
+  Set Window FrontWindow() Autoscroll On
+  Set CoordSys Earth
